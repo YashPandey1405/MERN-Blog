@@ -3,11 +3,12 @@ import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import
-  {
-    signInStart,
-    signInSuccess,
-    signInFailure,
-  } from '../redux/user/userSlice';
+{
+  signInStart,
+  signInSuccess,
+  signInFailure,
+} from '../redux/user/userSlice';
+import OAuth from '../components/OAuth';
 
 
 export default function SignIn ()
@@ -25,7 +26,8 @@ export default function SignIn ()
     e.preventDefault();
     if ( !formData.email || !formData.password )
     {
-      return dispatch( signInFailure( 'Please fill all the fields' ) );    }
+      return dispatch( signInFailure( 'Please fill all the fields' ) );
+    }
     try
     {
       dispatch( signInStart() );
@@ -51,7 +53,7 @@ export default function SignIn ()
   };
   return (
     <div className='min-h-screen mt-20'>
-      <div className='flex p-3 max-w-3xl mx-auto flex-col md:flex-row md:items-center gap-5'>
+      <div className='flex p-3 max-w-3xl mx-auto flex-col md:flex-row md:items-center gap-6'>
         {/* left */ }
         <div className='flex-1'>
           <Link to='/' className='font-bold dark:text-white text-4xl'>
@@ -101,6 +103,7 @@ export default function SignIn ()
                 'Sign In'
               ) }
             </Button>
+            <OAuth />
           </form>
           <div className='flex gap-2 text-sm mt-5'>
             <span>Don&apos;t have an account?</span>
