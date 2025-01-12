@@ -5,8 +5,8 @@ import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import Dashboard from './pages/Dashboard';
 import Projects from './pages/Projects';
-import Header from './component/Header';
-import FooterCom from './component/Footer';
+import Header from './components/Header';
+import FooterCom from './components/Footer';
 
 export default function App ()
 {
