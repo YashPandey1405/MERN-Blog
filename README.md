@@ -19,22 +19,13 @@
 
 [demo]()
 
-## 🛠️ Technology Used
+## 🛠️ Built With
 
-### Backend Technologies
-
-| Technology | Name | Purpose |
-|:---:|:---|:---|
-| <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/> | MongoDB | Storage and management of transaction metadata |
-| <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js"/> | Express.js | RESTful API development framework |
-| <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/> | Node.js | Server-side runtime environment |
-
-### Frontend Technologies
-
-| Technology | Name | Purpose |
-|:---:|:---|:---|
-| <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/> | React.js | User interface development |
-| <img src="https://img.shields.io/badge/MUI-007FFF?style=for-the-badge&logo=mui&logoColor=white" alt="Flowbite-React"/> | Flowbite-React | Component library for modern UI design |
+[![MongoDB](https://custom-icon-badges.demolab.com/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![Express](https://custom-icon-badges.demolab.com/badge/-Express-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
+[![React](https://custom-icon-badges.demolab.com/badge/-React-218AAB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
+[![Node.js](https://custom-icon-badges.demolab.com/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
+<img src="https://img.shields.io/badge/MUI-007FFF?style=for-the-badge&logo=mui&logoColor=white" alt="Flowbite-React"/>
 
 ## 🚀 Key Features
 
@@ -128,31 +119,6 @@ Once the application is up and running, you can:
 
 - Frontend: `http://localhost:5173`
 - Backend: `http://localhost:3000`
-
-<details>
-<summary><h2>Project Structure</h2></summary>
-
-</details>
-
-## 👥 Collaborators
-
-<table>
-  <tr>
-    <th>GitHub</th>
-    <th>Name</th>
-    <th>Role & Expertise</th>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/YashPandey1405"><img src="https://avatars.githubusercontent.com/u/120788054?v=4&=100" width="50"/></a></td>
-    <td>Yash Pandey</td>
-    <td>Backend</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/amit712singhal"><img src="https://avatars.githubusercontent.com/u/123376849?v=4&s=100" width="50"/></a></td>
-    <td>Amit Singhal</td>
-    <td>Frontend</td>
-  </tr>
-</table>
 
 ## 📄 License
 
